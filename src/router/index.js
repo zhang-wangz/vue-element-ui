@@ -5,6 +5,7 @@ import HelloWorld from '@/components/HelloWorld'
 Vue.use(Router)
 
 export default new Router({
+  mode:"history",
   routes: [
     {
       path: '/',
@@ -15,6 +16,32 @@ export default new Router({
       path: '/layout',
       name:"layout",
       component:()=>import("@/components/layout")
-    }
+    },
+    {
+      path: '/container',
+      name:"container",
+      component:()=>import("@/components/container")
+    },
+    {
+      path: '/icon',
+      name:"icon",
+      component:()=>import("@/components/icon")
+    },
+    {
+      path: '/button',
+      name:"button",
+      component:()=>import("@/components/button")
+    },
+    {
+      path: '/link',
+      name:"link",
+      component:()=>import("@/components/link")
+    },
+    {
+      path: '/radio',
+      name:"radio",
+      component:()=>import("@/components/radio")
+    },
+
   ]
 })

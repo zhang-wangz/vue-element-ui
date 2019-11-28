@@ -1,10 +1,10 @@
 <template>
 <div>
     <!-- gutter 分栏距离 -->
-    <el-row :gutter="10">
-        <el-col :span="8" :offset="5"><div class="grid-content bg-purple"></div></el-col>
-        <el-col :span="8"><div class="grid-content bg-purple-light"></div></el-col>
-        <el-col :span="8"><div class="grid-content bg-purple"></div></el-col>
+    <el-row :gutter="10" type="flex" justify="center" align="top">
+        <el-col :span="6" :offset="2"><div class="grid-content bg-purple"></div></el-col>
+        <el-col :span="6"><div class="grid-content bg-purple-light"></div></el-col>
+        <el-col :span="6" ><div class="grid-content bg-purple"></div></el-col>
     </el-row>
     <el-row :gutter="20">
         <el-col :span="16"><div class="grid-content bg-purple"></div></el-col>
