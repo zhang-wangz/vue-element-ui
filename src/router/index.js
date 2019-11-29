@@ -42,6 +42,41 @@ export default new Router({
       name:"radio",
       component:()=>import("@/components/radio")
     },
+    {
+      path: '/checkbox',
+      name:"checkbox",
+      component:()=>import("@/components/checkbox")
+    },
+    {
+      path: '/input',
+      name:"input",
+      component:()=>import("@/components/input")
+    },
+    {
+      path: '/inputnumber',
+      name:"inputnumber",
+      component:()=>import("@/components/inputnumber")
+    },
+    {
+      path: '/select',
+      name:"select",
+      component:()=>import("@/components/select")
+    },
+    {
+      path: '/switch',
+      name:"switch",
+      component:()=>import("@/components/switch")
+    },
+    {
+      path: '/slider',
+      name:"slider",
+      component:()=>import("@/components/slider")
+    },
+    {
+      path: '/timeanddatepicker',
+      name:"timeanddatepicker",
+      component:()=>import("@/components/timeanddatepicker")
+    },
 
   ]
 })
